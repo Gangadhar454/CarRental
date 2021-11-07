@@ -32,7 +32,29 @@
 * db.Locations.insert([{"car_id" : 2, "loc" : { "type" : "Point", "coordinates" : [ 25.223804, 55.28456 ] } },
 {"car_id" : 1, "loc" : { "type" : "Point", "coordinates" : [ 25.197233, 55.274147 ] } },
 {"car_id" : 3, "loc" : { "type" : "Point", "coordinates" : [ 20.593683, 78.962883 ] } },
-{ "car_id" : 4, "loc" : { "type" : "Point", "coordinates" : [ 24.297243, 55.583146 ] } }]);
+{ "car_id" : 4, "loc" : { "type" : "Point", "coordinates" : [ 24.297243, 55.583146 ] } }]); <br /> <br />
+OR you can fill using the json files in the CarRental folder .Refer this [link](https://docs.mongodb.com/database-tools/mongoimport/) to know how to import
+## 3.Install Python modules
+Open your cmd or shell and Change directory to the python foleder which contain pip files <br />
+Type these commands to install modules
+* pip install flask
+* pip install pymongo
+* pip install json
+
+## 4.Run Location.py
+   Run the Location.py using your machine <br />
+   In the console it will show you a http address [http://127.0.0.1:5000/](http://127.0.0.1:5000/)<br />
+   Copy the address
+## 5.Open Web Browser
+   After opening the Web Browser paste the URL in the search bar <br />
+   Two forms will appear on page i.e latitude and longitude <br />
+   Enter the details which are in floats<br />
+   Click on Search<br />
+   The Required output (The nearest top 3 locations of cars)
+   
+   
+   
+
  
  
  
