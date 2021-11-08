@@ -1,4 +1,4 @@
-# <h1 align="center"> CarRenatal</h1>
+# <h1 align="center"> CarRental</h1>
 ---
 ## How to run the Code?
 ---
