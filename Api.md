@@ -51,4 +51,5 @@ def location():
 Here, we have imported some more modules from Flask, like request,jsonify and render_template. We are using request to get the data which the user is sending, and we’re using jsonify for converting dictionaries to JSON. We have added one more route that is /location and also passing POST as a list and returning back what the user is sending in the parameters.
 
 **Now once again head over to the API testing tool and hit URL:**
-http://127.0.0.1:5000/location with parameters:
+http://127.0.0.1:5000/
+
