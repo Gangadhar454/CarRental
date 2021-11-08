@@ -5,16 +5,16 @@
 ### 1.Download files
 ### 2.Install Mongodb
 ### 3.Install Python modules
-### 4.Run Location.py
+### 4.Run app.py
 ### 5.Open Web Browser
 ---
 ## 1. Download files
- Download the Location.py and Home.html from the gituhub repository [CarRental](https://github.com/Gangadhar454/CarRental) <br />
+ Download the app.py and Home.html from the gituhub repository [CarRental](https://github.com/Gangadhar454/CarRental) <br />
  create a foader called "templates" and store the Home.html file in the holder<br />
- The Location.py and templates folder should be in same location
+ The app.py and templates folder should be in same location
 ## 2.Install Mongodb
  Download Mongod for your respective Operating using the link [Mongo](https://www.mongodb.com/try/download/community) and Install in your PC <br />
-I have created and fill the database collections using insert function Written in Location.py<br />
+I have created and fill the database collections using insert function Written in app.py<br />
 There is no need to fill the database manually
 ## 3.Schema of the Database
 **Database Name = CarRental** <br />
@@ -41,8 +41,8 @@ Type these commands to install modules
 * pip install pymongo
 * pip install json
 
-## 5.Run Location.py
-   Run the Location.py using your machine <br />
+## 5.Run app.py
+   Run the app.py using your machine <br />
    In the console it will show you a http address [http://127.0.0.1:5000/](http://127.0.0.1:5000/)<br />
    Copy the address
 ## 6.Open Web Browser
