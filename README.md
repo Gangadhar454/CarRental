@@ -12,7 +12,8 @@
 ---
 ## 1. Download files
  Download the Location.py and Home.html from the gituhub repository [CarRental](https://github.com/Gangadhar454/CarRental) <br />
- Store the Two files in same location /same folder
+ create a foader called "templates" and store the Home.html file in the holder<br />
+ The Location.py and templates folder should be in same location
 ## 2.Install Mongodb
  Download Mongod for your respective Operating using the link [Mongo](https://www.mongodb.com/try/download/community) and Install in your PC <br />
  **Open your Mongo shell** <br />
@@ -49,7 +50,7 @@ Type these commands to install modules
    After opening the Web Browser paste the URL in the search bar <br />
    Two forms will appear on page i.e latitude and longitude <br />
    Enter the details which are in floats<br />
-   Click on Search<br />
+   Click on Search .It will take you to the url http://127.0.0.1:5000/location <br />
    The Required output (The nearest top 3 locations of cars)
    
    
