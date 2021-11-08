@@ -2,6 +2,12 @@
 ---
 ## How to run the Code?
 ---
+## Using DOCKER
+**To run and open .yml files you have to install Docker Compose.**
+**After the installation, go to your docker-compose.yml directory and then execute docker-compose up to create and start services in your docker-compose.yml file.**
+
+---
+## By Using Normal python file execution
 ### 1.Download files
 ### 2.Install Mongodb
 ### 3.Install Python modules
